@@ -1,0 +1,40 @@
+{
+  "name": "svelte-app",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "proxy": "http://127.0.0.1:1000",
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w -s",
+    "start": "sirv public --no-clear -s"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^17.0.0",
+    "@rollup/plugin-node-resolve": "^11.0.0",
+    "rollup": "^2.3.4",
+    "rollup-plugin-css-only": "^3.1.0",
+    "rollup-plugin-livereload": "^2.0.0",
+    "rollup-plugin-svelte": "^7.0.0",
+    "rollup-plugin-terser": "^7.0.0",
+    "svelte": "^3.0.0",
+    "svelte-accessible-accordion": "^2.1.0",
+    "svelte-loading-spinners": "^0.1.7",
+    "svelte-popover": "^2.0.8",
+    "svelte-simple-datatables": "^0.2.3"
+  },
+  "dependencies": {
+    "chart.js": "^3.7.1",
+    "html-format": "^1.0.2",
+    "mapbox-gl": "^2.8.0",
+    "mdbootstrap": "^4.20.0",
+    "moment": "^2.29.1",
+    "sirv-cli": "^1.0.0",
+    "skeleton-elements": "^4.0.0",
+    "svelte-carousel": "^1.0.16",
+    "svelte-routing": "^1.6.0",
+    "svelte-star-rating": "^1.3.2",
+    "svelte-step-wizard": "^0.0.2",
+    "svelte-tags-input": "^2.8.1"
+  }
+}

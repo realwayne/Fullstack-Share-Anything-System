@@ -1,0 +1,202 @@
+body {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 700;
+  }
+header.heroBanner {
+    position: relative;
+    background-color: #09ff00;
+    background: url("../images/masterhead.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  /* header.heroBanner .overlay {
+    position: absolute;
+    background-color: #0eac00;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+  } */
+
+  header.heroBanner .sometext{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-weight: 700;
+    text-shadow: 0px 4px 3px rgba(255, 255, 255, 0.4),
+             0px 8px 13px rgba(255, 255, 255, 0.1),
+             0px 18px 23px rgba(255, 255, 255, 0.1);
+  }
+  header.heroBanner h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 5rem;
+    color: #047400b9;
+    text-shadow: 0px 3px 0px #444444, 0px 14px 10px rgba(0, 0, 0, 0.15),
+		0px 24px 2px rgba(0, 0, 0, 0.1), 0px 24px 30px rgba(0, 0, 0, 0.1);
+  }  
+  .features-icons, .datasharing, .us {
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+  
+  .features-icons .features-icons-item {
+    max-width: 20rem;
+  }
+  .features-icons .col{
+    max-width: 20rem;
+  }
+  
+  /* hr {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid #047400b9;
+    
+  } */
+  .datasharing p{
+    font-weight: 700;
+  }
+  .us img{
+    height: 250px;
+    border-radius: 50%;
+    padding: 50px 10px 20px 10px;
+  }
+
+  .img1{
+    height:400px;
+    position: relative;
+    background-color: #09ff00;
+    background: url("../images/photo-1461354464878-ad92f492a5a0.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+  .img2{
+    height: 400px;
+    position: relative;
+    background-color: #09ff00;
+    background: url("../images/photo-1582213782179-e0d53f98f2ca.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+  }
+.verse h2{
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    padding: 2rem;
+}
+.verse{
+    font-size: 1.2rem;
+}
+.v1,.v2{
+    padding: 2rem;
+}
+@media (max-width: 992px) {
+    header.heroBanner h1{
+        font-size: 3rem;
+    }  
+}
+@media only screen and (max-width: 1200px) {  
+    .img2 {
+      order : 3;   
+    }  
+    .x {
+           order : 4;
+     } 
+ }
+  
+
+ a {
+  color: #ffffff;
+  text-decoration: none;
+}
+.nav-link{
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+::selection {
+  background: #ffffff;
+  text-shadow: none;
+}
+footer {
+  padding: 2rem 0;
+  position: relative;
+    background-color: #000000;
+   
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.footer-column:not(:first-child) {
+  padding-top: 2rem;
+}
+@media (min-width: 768px) {
+  .footer-column:not(:first-child) {
+    padding-top: 0rem;
+ }
+}
+.footer-column {
+  text-align: center;
+}
+.footer-column .nav-item .nav-link {
+  padding: 0.1rem 0;
+}
+.footer-column .nav-item span.nav-link {
+  color: #ffffff;
+}
+.footer-column .nav-item span.footer-title {
+  font-size: 14px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  text-transform: uppercase;
+}
+.footer-column .nav-item .fas {
+  margin-right: 0.5rem;
+}
+.footer-column ul {
+  display: inline-block;
+}
+@media (min-width: 768px) {
+  .footer-column ul {
+    text-align: left;
+ }
+footer .quick-links {
+  font-size: 90%;
+  line-height: 40px;
+  margin-bottom: 0;
+  text-transform: none;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.copyright {
+  color: rgb(0, 0, 0);
+}
+.fa-ellipsis-h {
+  color: rgb(0, 0, 0);
+  padding: 2rem 0;
+}
+
+}
